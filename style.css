@@ -1,0 +1,74 @@
+@import url(https://fonts.googleapis.com/css2?family=Josefin+Sans:ital@0;1&family=Roboto:wght@500&display=swap);
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "josefin sans", sans-serif;
+}
+
+body {
+  background-color: #141414;
+  display: grid;
+  height: 100vh;
+  place-items: center;
+}
+
+.title {
+  width: 400px;
+  height: 200px;
+  text-align: center;
+  color: white;
+  margin-bottom: 400px;
+  margin-top: 20px;
+}
+
+.main {
+  margin-top: 50px;
+  width: 400px;
+  height: 450px;
+  background-color: white;
+  position: absolute;
+  border: 5px solid #590c5d;
+  border-radius: 6px;
+}
+
+.main input[type="text"] {
+  width: 88%;
+  position: relative;
+  height: 80px;
+  top: 5px;
+  text-align: right;
+  padding: 3px 6px;
+  outline: none;
+  font-size: 40px;
+  border: 5px solid black;
+  display: flex;
+  margin: auto;
+  border-radius: 6px;
+  color: black;
+}
+
+.main input[type="button"] {
+  width: 90px;
+  height: 60px;
+  padding: 2px;
+  margin: 2px 0px;
+  position: relative;
+  left: 13px;
+  top: 20px;
+  cursor: pointer;
+  font-size: 20px;
+  transition: 0.5s;
+  background-color: rgb(104, 101, 101);
+  color: white;
+  border-radius: 6px;
+}
+
+.main input[type="button"]:hover {
+  background-color: white;
+  color: rgb(73, 71, 71);
+}
+
+.btn input[value="C"] {
+  background-color: #f15742;
+}
