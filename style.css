@@ -30,6 +30,7 @@ body {
   position: absolute;
   border: 5px solid #590c5d;
   border-radius: 6px;
+  padding-top: 20px;
 }
 
 .main input[type="text"] {
@@ -70,5 +71,17 @@ body {
 }
 
 .btn input[value="C"] {
+  background-color: #f15742;
+}
+
+.btn input[value="="] {
+  background-color: #f30029;
+}
+
+.btn input[value="%"] {
+  background-color: #f15742;
+}
+
+.btn input[value="←"] {
   background-color: #f15742;
 }
